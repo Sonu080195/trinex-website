@@ -28,7 +28,7 @@ export default function Hero() {
       >
         
         {/* Headline */}
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
           <span className="bg-gradient-to-r from-[#f5d28c] to-[#c9a96e] bg-clip-text text-transparent">
             Building World-Class
           </span>
@@ -45,14 +45,14 @@ export default function Hero() {
         </div>
 
         {/* Subtext */}
-        <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-gray-300 text-base sm:text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
           Trinex Global Talent Solutions connects top-tier talent with 
           industry-leading organizations across Architecture, Engineering, 
           Construction, and MEP sectors.
         </p>
 
         {/* Buttons */}
-        <div className="flex justify-center gap-6 flex-wrap">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
           
           {/* Hire Talent */}
           <button className="bg-gradient-to-r from-[#d6b36a] to-[#c9a96e] text-black px-8 py-3 rounded-lg font-semibold shadow-[0_0_20px_rgba(201,169,110,0.4)] hover:scale-105 transition duration-300">
