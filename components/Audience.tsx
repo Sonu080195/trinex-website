@@ -7,7 +7,7 @@ export default function Audience() {
       {/* BACKGROUND IMAGE */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="/C&C.png"
+          src="/cc.png"
           alt="background"
           className="w-full h-full object-cover blur-sm scale-105"
         />
